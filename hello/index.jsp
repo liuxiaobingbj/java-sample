@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>tenxcloud</title>
+    <title>Dcloud</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -22,6 +22,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
   	<img height="100" src="logo.jpg" alt="tenxcloud"><br>
-  	<h3 style="margin-left:-20px">Welcome to tenxcloud. </h3>
+  	<h3 style="margin-left:-20px">Welcome to dcloud. </h3>
   </body>
 </html>
