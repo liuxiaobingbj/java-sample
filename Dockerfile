@@ -4,6 +4,7 @@ FROM tomcat:8.0
 
 # Add war package to the image
 RUN mkdir /app
+RUN mkdir ${CATALINA_HOME}/webapps/hello
 ADD hello/. /app
 
 ADD start.sh /start.sh
